@@ -9,13 +9,6 @@ export default function Home() {
 let b="Neha";
 //let a=new Date().toLocaleTimeString();
 
-//useState
-const[count,setCount]=useState(1);
-setInterval(()=>{
-setCount(count+1);
-},1000);
-
-
   return(
     <div>
     {<h1>{b}</h1> }
